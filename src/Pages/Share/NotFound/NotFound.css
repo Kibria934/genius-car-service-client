@@ -1,0 +1,20 @@
+.notfound {
+  display: flex;
+  height: 82vh;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.n-right {
+  flex: 1;
+  position: absolute;
+  right: 0;
+  transform: translateX(-90%);
+}
+.n-left {
+  flex: 1;
+  position: absolute;
+  border-right: 3px solid black;
+  left: 40%;
+  border-right-color: rgb(111, 66, 6);
+}
